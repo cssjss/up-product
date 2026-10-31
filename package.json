@@ -1,0 +1,15 @@
+{
+  "name": "tbupproduct",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check-template": "node src/cli.js check-template",
+    "inspect": "node src/cli.js inspect",
+    "draft": "node src/cli.js draft",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "playwright-core": "^1.56.0"
+  }
+}
